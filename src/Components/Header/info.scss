@@ -1,0 +1,27 @@
+$color_1: #f5f9ff;
+$background-color_1: #2f75e6;
+
+.topbar {
+  color: $color_1;
+  background-color: $background-color_1;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  display: flex;
+
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    display: flex;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    .icon {
+      margin-right: 5px;
+    }
+  }
+}

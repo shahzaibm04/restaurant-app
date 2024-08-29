@@ -1,0 +1,52 @@
+.subfooterdiv {
+  background-color: #2f75e6;
+  color: white;
+  .subfooter {
+    display: flex;
+    padding-top: 50px;
+    .subfooteritems {
+      margin: auto;
+      /* display: flex; */
+
+      .footerlogo {
+        font-weight: 500;
+        size: 32px;
+      }
+      .icons {
+        padding-top: 10px;
+        align-items: left;
+        span {
+          margin: 0 10px;
+        }
+      }
+      .signup {
+        padding-top: 20px;
+      }
+      .signupbtn {
+        background-color: white;
+        color: #2f75e6;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28px;
+        text-align: center;
+        text-transform: none;
+      }
+      .signuptxt {
+        border-color: white;
+      }
+      a {
+        text-decoration: none;
+        text-align: left;
+        margin: 40px;
+        margin-top: 50px;
+        color: white;
+        font-weight: 400;
+        size: 18;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      td {
+        padding: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+$color_1: #2f75e6;
+
+.taskbar {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  padding: 0 20px;
+  height: 70px;
+  border-bottom: 0.5px solid #646464;
+  color: $color_1;
+
+  .taskbar-left {
+    display: flex;
+    align-items: center;
+
+    .bird-logo {
+      position: absolute;
+      top: 10;
+      right: 40;
+    }
+
+    .company-name {
+      font-weight: bold;
+      margin-right: 10px;
+    }
+
+    .bird-logo {
+      width: 53px;
+      height: 33.72px;
+      top: -12px;
+      left: -3px;
+    }
+  }
+
+  .taskbar-center {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+
+    Button {
+      margin: auto;
+      color: $color_1;
+
+      font-size: 14px;
+      font-weight: 600;
+      color: #646464;
+
+      &:hover {
+        text-decoration: none;
+        color: #2f75e6;
+        text-decoration: 2px underline;
+        text-underline-offset: 30px;
+      }
+    }
+  }
+
+  .taskbar-right {
+    display: flex;
+    align-items: center;
+    span {
+      margin-left: 10px;
+    }
+  }
+}

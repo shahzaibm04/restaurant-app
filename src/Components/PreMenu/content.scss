@@ -1,0 +1,25 @@
+$color_1: #2f75e6;
+
+.main {
+  color: $color_1;
+  align-items: center;
+
+  .main-heading {
+    text-align: center;
+    padding-top: 2%;
+  }
+
+  .description-box {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-text {
+    display: flex;
+    width: 576px;
+    text-align: center;
+    margin-left: 30%;
+    line-height: 1.5;
+    color: $color_1;
+  }
+}

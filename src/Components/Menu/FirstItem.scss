@@ -1,0 +1,29 @@
+$color_1: #2f75e6;
+.menutop {
+  .menuitem {
+    display: flex;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    .tacoimg {
+      width: 704px;
+      height: 490px;
+      top: -47.09px;
+      left: -74px;
+      gap: 0px;
+      opacity: 0px;
+    }
+    .menugrid {
+      .menu {
+        width: 474.7px;
+        height: 402.56px;
+        left: 725.28px;
+      }
+    }
+  }
+}
+
+.menu {
+  color: $color_1;
+}

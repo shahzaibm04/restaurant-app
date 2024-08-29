@@ -1,0 +1,35 @@
+.footerdiv {
+  background-color: #2f75e6;
+  height: 200px;
+  width: 100%;
+  margin-top: 25%;
+
+  .footerbox {
+    display: flex;
+    padding-top: 50px;
+
+    .footeritems {
+      margin: auto;
+
+      .footertext {
+        color: white;
+        font-weight: 500;
+        font-size: 40px;
+        padding-right: 50px;
+        i {
+          font-size: 48px;
+          font-family: Libre Baskerville;
+          font-weight: 400;
+        }
+      }
+
+      .footerbutton {
+        text-transform: none;
+        background-color: white;
+        color: #2f75e6;
+        font-weight: 400;
+        padding: 10px 30px 10px 30px;
+      }
+    }
+  }
+}
